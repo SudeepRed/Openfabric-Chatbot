@@ -1,7 +1,15 @@
-# AI Junior Developer (Intern) Test 
-Welcome! and thank you for applying! 
+## Steps to test
+1. Download the pre-trained model from [drive](https://drive.google.com/drive/folders/1OBRAIGMLTM6rckZLY-0vmKPsWeu2JUOn?usp=share_link)
+2. Now place this folder in the project root directory
+3. make sure you have poetry installed
+4. run `poetry install` to install all dependencies from `poetry.lock` file, which are required to run the app.
+5. to run locally run `sh start.sh`
+6. to run using docker
+    1. first build the image using `docker build -t chatbot .`
+    2. next, run `docker run -p 3000:5000 chatbot`
+    3. your app is running on `localhost:3000`
 
-## Requirement
+## Project Requirements
 The current project has the blueprint structure of an AI App. 
 
 Your mission is to implement an 💬NLP chatbot **answering questions about science**. 
@@ -25,10 +33,3 @@ You are free to use any package or library you see feet as long as you follow th
 The application can be executed in two different ways:
 * locally by running the `start.sh` 
 * on in a docker container using `Dockerfile` 
-
-## Submission
-Your solution must be uploaded on GitHub, and submit us the link in **max 1 week** after receiving the task.
-
-## Note
-Keep in mind that this is the project that will be used to evaluate your skills.
-So we do expect you to make sure that the app is fully functional and doesn't have any obvious missing pieces.
