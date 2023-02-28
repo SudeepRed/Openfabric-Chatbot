@@ -10,6 +10,7 @@
     2. next, run `docker run -p 3000:5000 chatbot`
     3. your app is running on `localhost:3000`
 
+![example api](https://github.com/SudeepRed/Openfabric-Chatbot/blob/main/Screenshot%20from%202023-02-28%2005-45-47.png)
 ## Project Requirements
 The current project has the blueprint structure of an AI App. 
 
