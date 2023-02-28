@@ -1,10 +1,11 @@
 ## Steps to test
 1. Download the pre-trained model from [drive](https://drive.google.com/drive/folders/1OBRAIGMLTM6rckZLY-0vmKPsWeu2JUOn?usp=share_link)
 2. Now place this folder in the project root directory
-3. make sure you have poetry installed
-4. run `poetry install` to install all dependencies from `poetry.lock` file, which are required to run the app.
-5. to run locally run `sh start.sh`
-6. to run using docker
+3. make sure you have `poetry 1.1.x` installed
+    1. `pip install poetry==1.1.15`
+5. run `poetry install` to install all dependencies from `poetry.lock` file, which are required to run the app.
+6. to run locally run `sh start.sh`
+7. to run using docker
     1. first build the image using `docker build -t chatbot .`
     2. next, run `docker run -p 3000:5000 chatbot`
     3. your app is running on `localhost:3000`
